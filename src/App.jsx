@@ -143,7 +143,7 @@ function App() {
             <div className="popup-content">
               <p>
                 {
-                  result == 1 ? "You Win!" : result == 2 ? "Computer Win!" : "It's a tie!"
+                  result == 1 ? "You Win!" : result == 2 ? "AI Win!" : "It's a tie!"
                 }
               </p>
               <button onClick={resetGame}>Restart Game</button>
